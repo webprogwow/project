@@ -1,14 +1,9 @@
-@font-face {
-    font-family: 'Tangerine', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Tangerine');
-}
-
 .fon {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    height: 100vh;
+    height: 170vh;
     width: 100%;
     background: url('Image/background.jpg');
     background-size: cover; 
@@ -20,18 +15,18 @@
 
 h1 {
     color: rgb(241, 62, 116); 
-    padding-top: 300px;
     font-family: 'Tangerine', cursive;
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: lighter;
+    margin-top: 20px;
 }
 
 .menu {
     position: relative;
     z-index: 2;
-    padding: 0 50px;
+    padding: 0 30px;
    
 }
 
@@ -42,20 +37,38 @@ h1 {
     
 }
 
+.home {
+    padding: 100px;
+    position: relative;
+    display: block;
+        
+}
+
+.video {
+    position: relative;
+    margin-left: 600px;
+    padding-bottom: 56.25%; 
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+    
+}
+
 .post img {
-    width: 300px;
-    height: 250px;
-    position: absolute;
+    width: 290px;
+    height: 255px;
+    position: relative;
+    border: solid 1px rgb(40, 109, 116);
 }
 
 .post span {
-    color: white;
+    color: rgb(51, 16, 177);
     font-size: 25px;
-    background: rgba(255, 255, 255, 0.54);
     position: relative;
-    top: calc(70% - 25px);
     padding: 5px;
-    width: 100%;
+   
     text-align: center;
 }
 
@@ -65,8 +78,8 @@ h1 {
 }
 
 .row {
-    padding-top: 40px;
-    padding-right: 40px;
+    padding-top: 100px;
+    padding-right: 70px;
 }
 
 #content {
@@ -83,19 +96,20 @@ h1 {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 30%;
+    width: 46%;
 
 }
 
 .image img {
-    width: 220px;
-    height: 250px;
+    width: 270px;
+    height: 300px;
     margin-left: 70px;
     border: solid 1px rgb(40, 109, 116);
 }
 
 .text {
     float: left;
+    width: 100%;
     
     
 }
@@ -121,12 +135,13 @@ h6 {
 }
 
 .vid {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
     position: relative;
     display: block;
     text-align: justify;
     margin-right: 40px;
+     
     
 }
 
@@ -148,7 +163,7 @@ h6 {
     overflow: hidden;
     
 }
-  .video1 iframe {
+.video1 iframe {
     position: absolute;
     width: 80%;
     height: 80%;
@@ -164,15 +179,13 @@ h6 {
 }
 
 .image1 {
-    margin-left: 150px;
     margin-bottom: 10px;
     width: 30%;
-    text-align: center;
+    justify-content: center;
 
 }
 .image1 img {
-    width: 600px;
-    height: 450px;
+    width: 100%;
     border: solid 1px rgb(40, 109, 116);
     margin-top: 20px;
 
@@ -180,6 +193,50 @@ h6 {
 
 .pests {
     margin-top: 40px;
+    margin-left: 30px;
+    position: relative;
+    display: block;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+@media (max-width: 490px) {
+    .video {
+        margin-top: 200px;
+        margin-left: 0;
+    }
+
+    .video1 {
+        margin-left: 0;
+
+    }
+    .image {
+        margin-left: 0;
+        width: 100%;
+    }
+    .image img{
+        height: 150px;
+        width: 120px;
+    }
+}
+
+.leter{
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.tips {
+    margin-top: 40px;
+    margin-left: 30px;
+    position: relative;
+    display: block;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.bluorh {
+    margin-top: 20px;
     margin-left: 30px;
     position: relative;
     display: block;
